@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot>
+
+    <name>Plantoid Alpha</name>
+    <type>Test Platform</type>
+
+    <hardware>
+        <sensors>
+            <sensor>
+                <name></name>
+                <type>Ambient Light</type>
+                <range>
+                    <minimum>
+                        <value>0</value>
+                        <unit>lumen</unit>
+                    </minimum>
+                    <maximum>
+                        <value>100</value>
+                        <unit>lumen</unit>
+                    </maximum>
+                </range>
+            </sensor>
+            <sensor>
+                <name>Oxygen</name>
+                <type>Gas Sensor</type>
+            </sensor>
+            <range>
+                <minimum>
+                    <value>0</value>
+                    <unit>part per million</unit>
+                </minimum>
+                <maximum>
+                    <value>100000000</value>
+                    <unit>part per million</unit>
+                </maximum>
+            </range>
+
+        </sensors>
+    </hardware>
+
+
+</robot>
